@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>npm</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
   <nav>
@@ -21,9 +22,18 @@
     </ul>
   </nav>
   <header>
-    <h1>Build amazing things</h1>
-    <p>npm is the packager manager for JavaScript and the world's largest software registry. Discover packages of reusable code - and assemble them in powerful new ways.</p>
-    <button type="button">Sign up for npm</button>
+    <div class="searchbar">
+      <img class="logo" src="images/npm-logo.png" alt="npm logo" style="width: 9%">
+      <input type="search" id="search" placeholder="find packages"/>
+      <img class="search-submit" src="https://cdn1.iconfinder.com/data/icons/hawcons/32/698627-icon-111-search-256.png" alt="Submit">
+      <a class="signup" href="#">Sign up or log in</a>
+      <img class="bear" src="images/bear-logo.png" alt="bear-logo" style="width:3%">
+    </div>
+    <div class="container">
+      <h1>Build amazing things</h1>
+      <p>npm is the packager manager for JavaScript and the world's largest software registry. Discover packages of reusable code - and assemble them in powerful new ways.</p>
+      <button type="button">Sign up for npm</button>
+    </div>
   </header>
   <section class="section-1">
     <img src="images/collaboration.svg" alt="Collaboration image">
