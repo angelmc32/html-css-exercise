@@ -106,8 +106,11 @@ header .searchbar {
 }
 
 header .container {
-  width: 50%;
-  margin: 0 auto;
+  width: 25%;
+  position: relative;
+	right: 200px;
+	margin: 0 auto;
+	padding: 5% 0;
 }
 
 header .searchbar {
