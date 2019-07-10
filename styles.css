@@ -132,7 +132,6 @@ header button {
   padding: 2% 0;
   background-color: rgb(39, 53, 71);
   color: rgba(255, 255, 255, 0.8);
-  border: solid 0.25px rgba(0, 0, 0, 0.8);
 }
 
 .section-1 .cont1 {
@@ -177,7 +176,6 @@ header button {
   display: inline-block;
   width: 100%;
   padding: 7% 0;
-  border: solid 0.25px rgba(0, 0, 0, 0.8);
 }
 
 .section-2 .cont3 {
@@ -210,7 +208,6 @@ header button {
   padding: 2% 0;
   text-align: center;
   color: rgb(83, 88, 98);
-  border: solid 0.25px rgba(0, 0, 0, 0.8);
 }
 
 .title p {
@@ -222,9 +219,8 @@ header button {
   vertical-align: middle;
   display: inline-block;
   width: 100%;
-  margin: auto;
+  margin: 0 auto;
   text-align: center;
-  border: solid 0.25px rgba(0, 0, 0, 0.8);
 }
 
 .section-3 .container {
